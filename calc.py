@@ -1,10 +1,11 @@
 
 """
-A simple calculator.
-
-__author__ = "Kanishka Wickramasinghe"
+A simple calculator that can add, subtract, divide and multiply.
 """
 
+import webbrowser
+
+url = 'https://github.com/wickkan'
 
 class Calc:
 
@@ -180,7 +181,9 @@ class Calc:
                         print("1. Calculate\n2. Continue\n3. Exit")
 
             elif self.menu == 3:  # If users want to exit the program
-                print('----------------------')
+                print(
+                    '*****------------------------------------------*****\n''Thanks for trying: Simple Calculator\n''Click the link to check out more of my projects:\n',url)
+                print('*****------------------------------------------*****')
 
 
 if __name__ == '__main__':
